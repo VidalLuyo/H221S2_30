@@ -1,4 +1,4 @@
-const url = "http://3.225.247.74:3000/api/cliente/";
+const url = "http://3.225.247.74:3000/api/Pedido/";
 let resultados = '';
 const formArticulo = document.querySelector("form");
 const usercli = document.getElementById("USERCLI");
