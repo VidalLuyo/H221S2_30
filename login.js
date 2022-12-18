@@ -9,9 +9,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/'));
 
 var conexion = mysql.createConnection({
-	host: "34.239.220.243",
-	user: "francis",
-	password: "francis144",
+	host: "18.204.117.223",
+	user: "jesus",
+	password: "vidal",
 	database: "login_socket"
 });
 
@@ -50,7 +50,7 @@ app.post("/api/contactanos", (req, res) => {
 });
 
 app.get('/', function (req, res) {
-	res.sendFile(__dirname + "/menu.html");
+	res.sendFile(__dirname + "/Contacto.html");
 });
 
 app.get('/login', function (req, res) {
